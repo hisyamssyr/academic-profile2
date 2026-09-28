@@ -27,5 +27,19 @@
             Quality Assurance &middot; Security Testing &middot; Automated Repair
         </p>
     </div>
+
+    <div class="w-full max-w-2xl">
+        <h2 class="text-lg font-semibold text-gray-700 dark:text-gray-200 mb-3">Demo Dynamic Challenge</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <a href="{{ route('beranda', $darkMode ? ['mode' => 'dark'] : []) }}" class="px-4 py-3 bg-white dark:bg-gray-800 text-blue-600 dark:text-blue-400 border border-blue-600 dark:border-blue-500 rounded-md text-sm text-left hover:bg-blue-50 dark:hover:bg-gray-700 transition">
+                <span class="font-medium block">Dynamic Welcome</span>
+                <span class="text-gray-500 dark:text-gray-400">/beranda?user=Andi</span>
+            </a>
+            <a href="{{ route('ide-agent', ['mode' => 'dark']) }}" class="px-4 py-3 bg-white dark:bg-gray-800 text-blue-600 dark:text-blue-400 border border-blue-600 dark:border-blue-500 rounded-md text-sm text-left hover:bg-blue-50 dark:hover:bg-gray-700 transition">
+                <span class="font-medium block">Dynamic Dark Mode</span>
+                <span class="text-gray-500 dark:text-gray-400">/ide-agent?mode=dark</span>
+            </a>
+        </div>
+    </div>
 </div>
 @endsection

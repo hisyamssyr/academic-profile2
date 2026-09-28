@@ -4,7 +4,7 @@
 
 @section('content')
 <div class="max-w-3xl mx-auto space-y-6 mt-8">
-    <x-status-banner type="info">
+    <x-status-banner type="info" class="mb-4">
         @if ($user)
             Selamat datang, {{ $user }}!
         @else

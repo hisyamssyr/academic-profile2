@@ -10,6 +10,6 @@
     };
 @endphp
 
-<div {{ $attributes->merge(['class' => "border rounded-md p-4 flex items-center shadow-sm mb-4 $typeClasses"]) }}>
+<div {{ $attributes->merge(['class' => "border rounded-md p-4 flex items-start gap-3 shadow-sm $typeClasses"]) }}>
     {{ $slot }}
 </div>

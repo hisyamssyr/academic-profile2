@@ -16,6 +16,7 @@
                 <li><strong>NRP:</strong> 5025241130</li>
                 <li><strong>Program Studi:</strong> S1 Teknik Informatika</li>
                 <li><strong>Institusi:</strong> Institut Teknologi Sepuluh Nopember (ITS)</li>
+                <li><strong>Angkatan:</strong> 2024</li>
                 <li><strong>Periode:</strong> Masuk Agustus 2024, expected lulus Agustus 2028</li>
                 <li><strong>IPK:</strong> 3.51 / 4.00</li>
             </ul>
